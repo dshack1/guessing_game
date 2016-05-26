@@ -1,38 +1,7 @@
-
 <html>
-<body>
-<h1>Guessing Game</h1>
-<p>This is the Guessing Game. You have to try to guess the number between the two numbers in the description. There are lots of different levels and are harder the higher you go. Click Start to begin!</p>
-<br>
-<button onClick="levelOne()">Level 1</button>
-<button onClick="levelTwo()">Level 2</button>
-<button onClick="levelThree()">Level 3</button>
-<button onClick="levelFour()">Level 4</button>
-	
-<style>
-body {
-background-color: orange;
-}
-h1, p {
-text-align: center;
-color: blue;
-}
-p {
-color: rgb(50, 50, 255);
-}
-
-button {
-background-color: rgb(255, 100, 30);
-font-weight: bold;
-border-style: double;
-border-style: solid;
-border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
-}
-</style>
-<script>
-function levelOne() {var guess=prompt("What is your guess for 1-10?");var answer=3;if (answer==guess) {alert("Good job, you got it right! Move on to Level 2.");} else if (answer>guess) {alert("That is too low. Click Level 1 to try again!");} else if (answer<guess) {alert("That is too high. Click Level 1 to try again!");}}
-function levelTwo() {var guess=prompt("What is your guess for 1-50?");var answer=49;if (answer==guess) {alert("Good job, you got it right! Move on to Level 3.");} else if (answer>guess) {alert("That is too low. Click Level 2 to try again!");} else if (answer<guess) {alert("That is too high. Click Level 2 to try again!");}}
-function levelThree() {var guess=prompt("What is your guess for 1-10? This time, you have to guess two numbers in this format: smallernumber and biggernumber. Good luck!");var answer=49;if (answer==guess) {alert("Good job, you got it right! Move on to Level 3.");} else if (answer>guess) {alert("That is too low. Click Level 3 to try again!");} else if (answer<guess) {alert("That is too high. Click Level 3 to try again!");}}
-</script>
-</body>
+	<head>
+		<title>
+			Guessing Game
+		</title>
+	</head>
 </html>
